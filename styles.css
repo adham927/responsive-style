@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(./fonts/Gilroy-Regular.ttf);
+  }
+  @font-face {
+    font-family: Antic;
+    src: url(./fonts/Antic-Regular.ttf);
+  }
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30PX;
+}
+
+.menu-top{
+    /* height: 44px;
+    width: 527px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: black; */
+    display: flex; 
+    margin-left: 0px;
+    font-family: Gilroy;
+    font-size: 18px;
+    color: #000000;
+}
+.menu-out{
+    display: flex;
+    border: 1px solid black;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    line-height: 36px;
+    background-color: black;
+    border-right: 0;
+}
+.menu-in{
+    background-color: #F5FF7D;
+    padding-left: 20px;
+    border-bottom-left-radius: 50px ;
+    border-top-left-radius: 50px ;
+}
+.menu-out-white{
+    display: flex;
+    border: 1px solid black;
+    line-height: 36px;
+    background-color: black;
+    border-right: 0;
+    border-left: 0;
+}
+.menu-in-white{
+    background-color: white;
+}
+.pricing-out{
+    display: flex;
+    border: 1px solid black;
+    border-left: 0;
+    line-height: 36px;
+    background-color: black;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.pricing-in{
+    background-color: white;
+    padding-right: 20px;
+    border-bottom-right-radius: 50px ;
+    border-top-right-radius: 50px ;
+}
+.top-area-title{
+    font-family: Antic;
+    font-size: 96px;
+    color: #000000;
+}
+
+
