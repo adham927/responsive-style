@@ -6,6 +6,15 @@
     font-family: Antic;
     src: url(./fonts/Antic-Regular.ttf);
   }
+  @font-face {
+    font-family: Gabriela;
+    src: url(./fonts/Gabriela-Regular.ttf);
+  }
+
+  body{
+    background-color: #f4f4f4;
+    margin: 0;
+  }
 .header{
     display: flex;
     justify-content: space-between;
@@ -69,6 +78,241 @@
     font-family: Antic;
     font-size: 96px;
     color: #000000;
+    width: 80%;
+    text-shadow: 3px 5px #00000021;
+    margin-left: 50px;
+}
+.top-area{
+    position: relative;
+    height: 543px;
+}
+.top-girl{
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+.register-btn{
+    background-color: #F5FF7D;
+    border: 1px solid black;
+    font-size: 22px;
+    font-family: 'gilroy';
+    width: 167px;
+    border-radius: 50px;
+    padding: 10px;
+    background-image: url('./assets/arrow.png');
+    background-repeat: no-repeat;
+    background-position: 120px 12px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.reg-text{
+    margin-right: 34px;
+}
+.product-cont-in{
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.product-cont-text{
+    font-size: 40px;
+    font-family: antic;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 50px
+}
+.product-cont-yellow{
+    width: 96%;
+    height: 835px;
+    margin-left: 2%;
+    background-color: #F5FF7D;
+    border-radius: 50px;
+    margin-top: 39px;
+
+}
+.center-white{
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+.yellow-cont-title{
+    font-size: 96px;
+    font-family: antic;
+    color: black;
+}
+.yellow-cont{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 71px;
+}
+.yellow-cont-subtitle{
+    font-size: 19px;
+    font-family: gilroy;
 }
 
+.dot-img-cont{
+    width:50%;
+    display:flex;
+    justify-content: center;
+}
+.yellow-cont-box{
+    width:50%;
+    padding-left: 50px;
+}
+.product-cont-yellow-in{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 80px;
 
+}
+.product-cont-yellow-in-box{
+    border-left: 1px solid black;
+    width: 33%;
+    text-align: center;
+}
+.product-cont-yellow-in-box-num{
+    font-size: 52px;
+    font-family: gilroy;
+}
+.product-cont-yellow-in-box-text{
+    font-size: 19px;
+    font-family: gilroy;
+}
+.product-cont-yellow-in-box-no-border{
+    border: 0;
+}
+.program-cont{
+    background-color: black;
+    height: 780px;
+}
+.program-cont-in{
+    background-color: #D9D9D9;
+    border-radius: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    height: 700px;
+    
+}
+.program-title-small{
+    font-family: Gabriela;
+    font-size: 14px;
+}
+.program-title{
+    font-family: antic;
+    font-size: 60px;
+    border-bottom: 1px solid black;
+    padding-bottom: 25px;
+}
+.program-img{
+    width: 30%;
+}
+.program-text{
+   width:48%;;
+}
+.program-desc{
+    font-family: Gilroy;
+    font-size: 27px;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(./assets/program-arrow.png);
+    background-repeat: no-repeat;
+    background-position: 98%;
+}
+.text-block{
+    background-color: black;
+    height: auto;
+    padding: 113px;
+
+}
+.white-text{
+    color: white;
+    font-family: antic;
+    font-size: 60px;
+}
+.gray-text{
+    color: #4D4D4D;
+    font-family: antic;
+    font-size: 60px;
+}
+.text-block-btn{
+    width: 100%;
+    background-position: 57%;
+    margin-left: 0;
+    font-size: 36px;
+}
+.tools-cont{
+    background-color: black;
+    height: 1037px;
+}
+.tools-cont-in{
+    background-color: #D9D9D9;
+    height: 852px;
+    border-radius: 50px;
+    padding: 113px;
+}
+
+.tools-title{
+    font-family: antic;
+    font-size: 60px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black ;
+}
+.top-lines{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.bottom-lines{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.girl-2{
+position: absolute;
+left: -189px;
+}
+.tools-cont-boxes{
+    position: relative;
+    top: 154px;
+    width: 1178px;
+    margin: 0 auto;
+}
+.box-title{
+    font-size: 28px;
+    font-family: antic;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 71px;
+}
+.box-desc{
+    font-size: 18px;
+    font-family: Gilroy;
+    margin-left: 20px;
+}
+.box-analytics{
+    border-top-right-radius:50px ;
+    border-bottom: 0;
+    border-left: 0;
+}
+.box-general{
+    border-top-left-radius:50px ;
+    border-bottom: 0;
+}
+.box-front{
+    border-bottom-right-radius:50px ;
+    border-left: 0;
+    background-color: black;
+    color: white;
+}
+.box-research{
+    border-bottom-left-radius:50px ;
+    border-top-left-radius:50px ;
+    border-right: 0;
+    background-color:#F4F4F4;
+}
